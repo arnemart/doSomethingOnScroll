@@ -1,0 +1,17 @@
+{
+  "name": "doSomethingOnScroll",
+  "version": "1.0.0",
+  "description": "Performant onscroll handler wrapper thing",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "browserify -do test-built.js test.js"
+  },
+  "author": "Arne Martin Aurlien",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^9.0.3"
+  },
+  "dependencies": {
+    "raf": "^2.0.4"
+  }
+}
