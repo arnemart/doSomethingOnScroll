@@ -1,5 +1,5 @@
 {
-  "name": "doSomethingOnScroll",
+  "name": "do-something-on-scroll",
   "version": "1.0.0",
   "description": "Performant onscroll handler wrapper thing",
   "keywords": ["scroll", "onscroll", "browser"],
