@@ -2,7 +2,13 @@
   "name": "doSomethingOnScroll",
   "version": "1.0.0",
   "description": "Performant onscroll handler wrapper thing",
+  "keywords": ["scroll", "onscroll", "browser"],
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/arnemart/doSomethingOnScroll.git"
+  },
+  "homepage": "https://github.com/arnemart/doSomethingOnScroll",
   "scripts": {
     "build-test": "browserify -do test-built.js test.js"
   },
