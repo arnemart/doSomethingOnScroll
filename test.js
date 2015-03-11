@@ -1,8 +1,8 @@
-var doStuffOnScroll = require('./');
+var doSomethingOnScroll = require('./');
 
 var box = document.getElementById('box');
 
-doStuffOnScroll(function(pos) {
-    console.log(pos);
-    box.style.top = (pos + 10) + 'px';
+doSomethingOnScroll(function(offset) {
+    console.log(offset);
+    box.style.top = (offset + 10) + 'px';
 });
