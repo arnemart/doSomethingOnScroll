@@ -1,4 +1,4 @@
-var raf = require('raf');
+var raf = require('raf-component');
 
 var currentlyScrolling = false;
 var handlers = [];
